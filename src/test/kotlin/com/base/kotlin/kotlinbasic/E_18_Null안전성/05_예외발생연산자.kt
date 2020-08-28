@@ -6,5 +6,5 @@ fun main(args: Array<String>) {
     data!!.length
 
     data =null
-    data!!.length
+    //data!!.length
 }
