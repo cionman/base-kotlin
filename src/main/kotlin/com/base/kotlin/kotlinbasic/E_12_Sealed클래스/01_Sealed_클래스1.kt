@@ -2,6 +2,7 @@ package com.base.kotlin.kotlinbasic.E_12_Sealed클래스
 
 /**
  * sealed 클래스는 enum과 사용목적이 같다.
+ * 하나의 상위클래스에서 하위 클래스들의 정의를 제한할 수 있는 방법
  */
 sealed class Shape{
     class Circle(val radius: Double): Shape()
